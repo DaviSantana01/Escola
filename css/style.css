@@ -1,0 +1,10 @@
+.pagina{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.background{
+    background: url(../img/background.jpg);
+    height: 95vh;
+    background-size: 100%;
+}
