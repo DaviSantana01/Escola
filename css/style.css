@@ -2,6 +2,11 @@
 
 
 /*BANNER DA PÁGINA*/
+
+:root{
+    --primaria: 'Roboto','sans-serif';
+}
+
 .pagina{
     max-width: 1200px;
     margin: 0 auto;
@@ -13,7 +18,7 @@
     background-size: 100%;
     filter: grayscale(80%);
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primaria);
     font-weight: 900;
 }
 
@@ -48,7 +53,7 @@
 
 .sobre div article p{
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primaria);
     font-size: 1.4rem;
     margin-top: 10%;
     line-height: 35px;
@@ -58,7 +63,7 @@
 
 .sobre div article h2{
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primaria);
     font-weight: 900;
     font-size: 5rem;
     text-transform: uppercase;
@@ -67,12 +72,19 @@
 }
 
 .sobre div article h3{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primaria);
     font-weight: 900;
     font-size: 2rem;
     text-transform: uppercase;
     margin-top: 1%;
     margin-right: 5%;
 
+}
+
+/*PROGRAMAS*/
+
+.programas{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+    display: grid;
 }
 
